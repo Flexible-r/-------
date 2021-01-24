@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+  margin: 0px 0 0px;
+  padding: 0px 0 0px;
+  text-align: center;
+ 
+
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: " ";
+  color: black;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: sticky;
+  padding-bottom: 0px;
+  margin: 0 34px 0 30px;
+  font-size: 36px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .10c;
+  
+}
+.menu-main a, .menu-main a:visited {color:red;}
+ .menu-main a:hover{color:brown ;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: brown;
+  transition: .8s;
+  
+}
+
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+.top-menu{
+  margin: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+img{
+width: 100%;
+}
+
+body{
+margin: 0px;
+background-image: url('assets/Images/car.jpg');
+background-size: 100% ;
+background-repeat: no-repeat;
+background-color: rgb(14, 14, 14);
+
+
+}
+p{
+  margin: 0px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+  #layer1 { z-index: 3; }
+  #layer2 { z-index: 1; }
+  #layer3 { z-index: 2; }
+div{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+#layer3{
+  margin-top: 200px;
+font-size: 65px;
+color: rgb(255, 255, 255);
+text-align: auto;
+}
+.footer{
+  margin-top: 800px;
+ color: white;
+ font-size: 45px;
+}
+.Product{
+  margin-top: 200px;
+  grid-row: 1fr ;
+  grid-column: 1fr 1fr 1fr 1fr;
+}
+table{
+ 
+ border-color: aliceblue  ;
+  color: aliceblue;
+width: 20%;
+}
+
+#fff{
+ color:rgb(14, 14, 14) ; 
+}
+
+.Product {
+     
+      grid-row: 1;
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 1fr 1fr 1fr ;
+  }
+  
+  
+  .col1 {
+      grid-column: 1;
+      grid-row: 1;
+      
+  }
+  
+  .col2 {
+      grid-column: 2;
+      grid-row: 1;
+     
+  }
+  .col3{
+    grid-row: 1;
+    grid-column: 3;
+  }
+  
+  .col4{
+    grid-row: 2;
+    grid-column: 1;
+    padding-top: 40px;
+  }
+  .col5{
+    grid-row: 2;
+    grid-column: 2;
+    padding-top: 40px;
+  }
+  .col6{
+    grid-row: 2;
+    grid-column: 3;
+    padding-top: 40px;
+  }
+  
+.Opis{
+  color:white;
+}
+
+
+img{
+  width: 60%;
+}
+button{
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  left:20px;
+}
+.Googlemap{
+  margin-top: 100px;
+  background-color: rgb(14, 14, 14);
+
+}
+.ggg{
+  margin-top: 300px;
+  color: rgb(14, 14, 14) ;
+  font-size: 1px;
+  margin-bottom: 10px;
+}
+.Dostavka{
+  margin-top: 40px;
+  font-size: 50px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: white;
+}
+#asa{
+  display: none;
+}
+.kostil{
+  margin-top: 400px;
+  color: rgb(14, 14, 14);
+  font-size: 1px;
+}
+.Onas{
+  margin-top: 20px;
+  padding-bottom: 420px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: white;
+font-size: 30px;
+}
+.qws{
+
+  color:rgb(14, 14, 14);
+}
+.ae{
+  margin-top: 360px;
+  font-size: 60px;
+  color: white;
+}
+#qwerty{
+  color:rgb(14, 14, 14);
+}
