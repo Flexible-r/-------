@@ -5,10 +5,10 @@
     <div class="top-menu" id="layer1">
         <nav class="top-menu">
             <ul class="menu-main">
-                <li><a id="uuu">Главная</a></li>
-                <li><a id="aaa">Продукция</a></li>
-                <li><a id="www">Доставка</a></li>
-                <li><a id="asdf">О нас</a></li>
+                <li><a id="uuu" href="#tre">Главная</a></li>
+                <li><a id="aaa" href="#fff">Продукция</a></li>
+                <li><a id="www" href="#rrr">Доставка</a></li>
+                <li><a id="asf" href="#qwerty">О нас</a></li>
             </ul>
         </nav>
 
@@ -29,44 +29,48 @@
         <div class="col1">
             <div style="height: 500px;"><a href="Opisanie.html"> <img src="../assets/Images/Бетон.png"> </a><br></div>
             <p>Описание: супер крутой бетон всем советую<br> Описание пока не придумал </p> <br>
-            <img src="../assets/Images/remove.svg" (click)="Minus(1)" class="qwer" style="height: 30px; width: 30px;" width="100%" >
+            <img src="../assets/Images/remove.svg" (click)="Minus(1)" class="qwer" style="height: 30px; width: 30px;"
+                width="100%">
             <span>{{counter}}</span>
-             <img src="../assets/Images/plus.svg" (click)="increase(1)" class="qwe" style="height: 30px; width: 30px;">   
-             <button class="rrr">
-                 Добавить в корзину
-             </button><br>
+            <img src="../assets/Images/plus.svg" (click)="increase(1)" class="qwe" style="height: 30px; width: 30px;">
+            <button class="rrr">
+                Добавить в корзину
+            </button><br>
 
         </div>
         <div class="col2">
             <div style="height: 500px;"><a href="Opisanie.html"> <img src="../assets/Images/0309456-1.png"> </a></div>
             <p>Описание: супер крутой бетон всем советую<br> Описание пока не придумал </p> <br>
-            <img src="../assets/Images/remove.svg" (click)="Minus1(1)" class="qwer" style="height: 30px; width: 30px;" width="100%" >
+            <img src="../assets/Images/remove.svg" (click)="Minus1(1)" class="qwer" style="height: 30px; width: 30px;"
+                width="100%">
             <span>{{counter1}}</span>
-             <img src="../assets/Images/plus.svg" (click)="increase1(1)" class="qwe" style="height: 30px; width: 30px;">   
-             <button class="rrr">
-                 Добавить в корзину
-             </button><br>
+            <img src="../assets/Images/plus.svg" (click)="increase1(1)" class="qwe" style="height: 30px; width: 30px;">
+            <button class="rrr">
+                Добавить в корзину
+            </button><br>
         </div>
         <div class="col3">
             <div style="height: 500px;"><a href="Opisanie.html"> <img src="../assets/Images/image.png"> </a></div>
             <p>Описание: супер крутой бетон всем советую<br> Описание пока не придумал </p> <br>
-            <img src="../assets/Images/remove.svg" (click)="Minus2(1)" class="qwer" style="height: 30px; width: 30px;" width="100%" >
+            <img src="../assets/Images/remove.svg" (click)="Minus2(1)" class="qwer" style="height: 30px; width: 30px;"
+                width="100%">
             <span>{{counter2}}</span>
-             <img src="../assets/Images/plus.svg" (click)="increase2(1)" class="qwe" style="height: 30px; width: 30px;">   
-             <button class="rrr">
-                 Добавить в корзину
-             </button><br>
+            <img src="../assets/Images/plus.svg" (click)="increase2(1)" class="qwe" style="height: 30px; width: 30px;">
+            <button class="rrr">
+                Добавить в корзину
+            </button><br>
         </div>
 
         <div class="col4">
             <div style="height: 500px;"><a href="Opisanie.html"> <img src="../assets/Images/images.png"> </a></div>
             <p>Описание: супер крутой бетон всем советую<br> Описание пока не придумал </p> <br>
-            <img src="../assets/Images/remove.svg" (click)="Minus3(1)" class="qwer" style="height: 30px; width: 30px;" width="100%" >
+            <img src="../assets/Images/remove.svg" (click)="Minus3(1)" class="qwer" style="height: 30px; width: 30px;"
+                width="100%">
             <span>{{counter3}}</span>
-             <img src="../assets/Images/plus.svg" (click)="increase3(1)" class="qwe" style="height: 30px; width: 30px;">   
-             <button class="rrr">
-                 Добавить в корзину
-             </button><br>
+            <img src="../assets/Images/plus.svg" (click)="increase3(1)" class="qwe" style="height: 30px; width: 30px;">
+            <button class="rrr">
+                Добавить в корзину
+            </button><br>
         </div>
         <div class="col5">
             <div style="height: 500px;"><a href="Opisanie.html"> <img src="../assets/Images/unnamed.png"> </a></div>
@@ -115,42 +119,3 @@
     </div>
 
 </div>
-<script>
-    document.getElementById('aaa').onclick = function (event) {
-        console.log("dfgadsda")
-        document.getElementById("fff").scrollIntoView({
-
-            behavior: 'smooth'
-        });
-    }
-
-
-
-    document.getElementById('www').onclick = function (event) {
-        console.log("dfgadsda")
-        document.getElementById("rrr").scrollIntoView({
-
-            behavior: 'smooth'
-        });
-    }
-
-
-    document.getElementById('uuu').onclick = function (event) {
-        console.log("dfgadsda")
-        document.getElementById("tre").scrollIntoView({
-
-            behavior: 'smooth'
-        });
-    }
-
-
-    document.getElementById('asdf').onclick = function (event) {
-        console.log("dfgadsda")
-        document.getElementById("qwerty").scrollIntoView({
-
-            behavior: 'smooth'
-        });
-    }
-
-
-</script>
