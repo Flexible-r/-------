@@ -1,0 +1,11 @@
+<div class="main">
+    <div class="products">
+        <div *ngFor="let product of products" class="product">
+            <img [src]="product.img">
+            <p>{{product.description}}<br> {{product.price}}&#8381; </p> <br>
+            <button class="rrr" (click)="removeFromBaskets(product)">
+                Убрать из корзины
+            </button>
+        </div>
+    </div>
+</div>
