@@ -1,0 +1,23 @@
+span{
+    color: white;
+    font-size: 40pt;
+}
+.qwe{
+    margin-right: 15pt;
+    margin-left: 10pt;
+    font-size: 15pt;
+}
+.qwer{
+    margin-right: 10pt;
+}
+
+.products {
+    margin-top: 200px;
+}
+
+.full-page {
+    background-image: url('../../assets/Images/car.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    margin-top: -25px;
+}
