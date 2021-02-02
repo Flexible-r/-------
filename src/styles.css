@@ -103,7 +103,7 @@ text-align: auto;
 .footer{
   margin-top: 800px;
  color: white;
- font-size: 45px;
+ font-size: 55px;
 }
 .Product{
   margin-top: 200px;
@@ -221,4 +221,8 @@ font-size: 30px;
 }
 #qwerty{
   color:rgb(14, 14, 14);
+}
+#tre{
+  font-size: 0.1px;
+  color: white;
 }
