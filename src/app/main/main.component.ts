@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { BasketService } from '../basket.service';
 import { ModelsService } from '../models.service';
-
+interface Alert {
+  type: string;
+  message: string;
+}
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
@@ -16,4 +19,6 @@ export class MainComponent {
   increase(product: any) {
     this.basketService.addToBaskets(product);
   }
+  
 }
+export class NgbdAlertCustom {}

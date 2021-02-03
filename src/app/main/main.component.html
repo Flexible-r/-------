@@ -30,12 +30,16 @@
 
     <div class="Product">
         <div class="products" *ngFor="let product of products">
-            <div style="height: 500px;"><a href="Opisanie.html"> <img [src]="product.img"> </a><br></div>
-            <p>{{product.description}}<br> {{product.price}}&#8381; </p> <br>
+            <div style="height: 450px;"><a href="Opisanie.html"> <img [src]="product.img"> </a><br></div>
+            <p class="ttt">{{product.description}} </p> 
+          
+            <p class="sss">Цена: {{product.price}} &#8381; за 1 мешок</p>
             <button class="rrr" (click)="increase(product)">
                 Добавить в корзину
             </button><br>
+           
         </div>
+     
     </div>
     <div class="ggg" id="rrr">Дпывавфыа</div>
     <div class="Dostavka">Наши районы доставки:</div>
